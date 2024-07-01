@@ -1,0 +1,48 @@
+.skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1em;
+  align-items: center;
+}
+
+#react {
+  background-image: url('../assets/react-60.png');
+  height: 60px;
+  width: 60px;
+}
+
+#firebase {
+  background-image: url('../assets/firebase-48.png');
+  height: 48px;
+  width: 48px;
+}
+
+#pg {
+  background-image: url('../assets/postgres-50.png');
+  height: 50px;
+  width: 50px;
+}
+
+#js {
+  background-image: url('../assets/js-50.png');
+  height: 50px;
+  width: 50px;
+}
+
+#html {
+  background-image: url('../assets/html5-50.png');
+  height: 50px;
+  width: 50px;
+}
+
+#css {
+  background-image: url('../assets/css3-50.png');
+  height: 50px;
+  width: 50px;
+}
+
+#git {
+  background-image: url('../assets/git-50.png');
+  height: 50px;
+  width: 50px;
+}

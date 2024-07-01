@@ -1,0 +1,38 @@
+.contact {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+#github {
+  background-image: url('../assets/github-50.png');
+  height: 50px;
+  width: 50px;
+}
+
+#github:hover {
+  background-image: url('../assets/github-highlight-50.png');
+  cursor: pointer;
+}
+
+#linkedin {
+  background-image: url('../assets/linkedin-50.png');
+  height: 50px;
+  width: 50px;
+}
+
+#linkedin:hover {
+  background-image: url('../assets/linkedin-hover-50.png');
+  cursor: pointer;
+}
+
+#email {
+  background-image: url('../assets/email-60.png');
+  height: 60px;
+  width: 60px;
+}
+
+#email:hover {
+  background-image: url('../assets/email-highlight-60.png');
+  cursor: pointer;
+}
