@@ -1,8 +1,22 @@
-# React + Vite
+# Projects Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple web portfolio of projects I've made.
 
-Currently, two official plugins are available:
+### Dependencies
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **react** : JS lib used for the frontend
+- **react-dom** : DOM rendering for react
+- **react-slick** : carousel component
+
+### Dev Dependencies
+
+- **vite** : frontend tooling
+- **@vitejs/plugin-react** : to integrate react with vite
+- **vitest** : unit test framework
+- **@testing-library/jest-dom** : to test state of the DOM
+- **@testing-library/react** : to test react
+- **jsdom** : implements DOM and HTML standards
+- **eslint** :linter
+- **eslint-plugin-react** : linting rules for react
+- **eslint-plugin-react-hooks** : linting rules for react hooks
+- **eslint-plugin-react-refresh** : linting rules for react refresh
