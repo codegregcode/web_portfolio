@@ -1,11 +1,11 @@
 const projectsData = [
   {
-    name: 'photo_portfolio',
+    name: 'echium_photo_portfolio',
     img_src: 'https://i.ibb.co/tZYpPc0/Screenshot-2024-06-30-at-21-22-06.png',
     description:
-      'An online home for all my photos. Built using React, Firebase, react-spring and lightroomjs',
-    github_link: 'https://github.com/codegregcode/photo_portfolio',
-    deploy_link: 'https://github.com/codegregcode/photo_portfolio',
+      'An online home for all my photos. Built using React, Yet Another React Lightbox and  Firebase.',
+    github_link: 'https://github.com/codegregcode/echium_photo_portfolio',
+    deploy_link: 'https://echium.photo/',
   },
   {
     name: 'Pawfect Match',
