@@ -14,8 +14,12 @@ describe('Projects Component', () => {
   it('displays project details correctly', () => {
     render(<Projects />);
     projectsData.forEach((project) => {
-      expect(screen.getByText(project.name)).toBeInTheDocument();
-      expect(screen.getByText(project.description)).toBeInTheDocument();
+      expect(
+        screen.getByTestId(`project-name-${project.name}`)
+      ).toBeInTheDocument();
+      expect(
+        screen.getByTestId(`project-description-${project.name}`)
+      ).toBeInTheDocument();
     });
   });
 

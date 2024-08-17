@@ -57,19 +57,23 @@ exports[`App component > matches the snapshot 1`] = `
       role="article"
     >
       <img
-        src="https://i.ibb.co/tZYpPc0/Screenshot-2024-06-30-at-21-22-06.png"
+        src="https://res.cloudinary.com/dfacllhgp/image/upload/v1723885118/echium_photo_nfqevt.png"
       />
-      <h4>
-        photo_portfolio
+      <h4
+        data-testid="project-name-echium_photo_portfolio"
+      >
+        echium_photo_portfolio
       </h4>
-      <p>
-        An online home for all my photos. Built using React, Firebase, react-spring and lightroomjs
+      <p
+        data-testid="project-description-echium_photo_portfolio"
+      >
+        An online home for all my photos. Built using React, Yet Another React Lightbox, React-Spring and  Firebase.
       </p>
       <div
         class="project-card-links"
       >
         <a
-          href="https://github.com/codegregcode/photo_portfolio"
+          href="https://github.com/codegregcode/echium_photo_portfolio"
           target="_blank"
         >
           <div
@@ -77,7 +81,7 @@ exports[`App component > matches the snapshot 1`] = `
           />
         </a>
         <a
-          href="https://github.com/codegregcode/photo_portfolio"
+          href="https://echium.photo/"
           target="_blank"
         >
           <div
@@ -91,12 +95,16 @@ exports[`App component > matches the snapshot 1`] = `
       role="article"
     >
       <img
-        src="https://i.ibb.co/tP7sDYH/Screenshot-2024-06-30-at-21-23-41.png"
+        src="https://res.cloudinary.com/dfacllhgp/image/upload/v1723885118/pawfect-match_mhxixc.png"
       />
-      <h4>
+      <h4
+        data-testid="project-name-Pawfect Match"
+      >
         Pawfect Match
       </h4>
-      <p>
+      <p
+        data-testid="project-description-Pawfect Match"
+      >
         The final project created as part of a small group on Command Shift bootcamp. Built using React, Firebase and more
       </p>
       <div
@@ -125,12 +133,16 @@ exports[`App component > matches the snapshot 1`] = `
       role="article"
     >
       <img
-        src="https://i.ibb.co/xMS6KFY/1681385310116.png"
+        src="https://res.cloudinary.com/dfacllhgp/image/upload/v1723885118/nasa-search_y9q5jn.png"
       />
-      <h4>
+      <h4
+        data-testid="project-name-NASA Image Seach - Command Shift Tech Test"
+      >
         NASA Image Seach - Command Shift Tech Test
       </h4>
-      <p>
+      <p
+        data-testid="project-description-NASA Image Seach - Command Shift Tech Test"
+      >
         Created to get a better understanding of a technical test as part of a tech interview. Built using React
       </p>
       <div
