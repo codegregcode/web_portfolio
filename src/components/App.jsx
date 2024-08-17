@@ -6,12 +6,14 @@ import '../styles/App.css';
 function App() {
   return (
     <>
-      <h1>Greg Cain</h1>
-      <p>I love creating things, solving problems and learning.</p>
-      <p>
-        And I&apos;m currently searching for a Junior Software/Web Developer
-        role.
-      </p>
+      <div className="header">
+        <h1>Greg Cain</h1>
+        <p>I love creating things, solving problems and learning.</p>
+        <p>
+          And I&apos;m currently searching for a Junior Software/Web Developer
+          role.
+        </p>
+      </div>
       <h2>Skills</h2>
       <div className="skills">
         <Skills />

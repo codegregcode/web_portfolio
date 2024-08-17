@@ -9,7 +9,7 @@
   justify-content: center;
   align-items: center;
   height: 500px;
-  width: 300px;
+  width: 350px;
   background-color: #f0f0f0;
   border-radius: 15px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -17,6 +17,7 @@
 }
 
 .project-card-links {
+  padding-top: 10%;
   display: flex;
   flex-direction: row;
 }
@@ -45,4 +46,11 @@
 
 .internet-project:hover {
   background-image: url('../assets/internet-highlight-40.png');
+}
+
+@media (max-width: 850px) {
+  .projects {
+    display: flex;
+    flex-direction: column;
+  }
 }

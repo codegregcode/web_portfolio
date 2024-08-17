@@ -2,15 +2,19 @@
 
 exports[`App component > matches the snapshot 1`] = `
 <DocumentFragment>
-  <h1>
-    Greg Cain
-  </h1>
-  <p>
-    I love creating things, solving problems and learning.
-  </p>
-  <p>
-    And I'm currently searching for a Junior Software/Web Developer role.
-  </p>
+  <div
+    class="header"
+  >
+    <h1>
+      Greg Cain
+    </h1>
+    <p>
+      I love creating things, solving problems and learning.
+    </p>
+    <p>
+      And I'm currently searching for a Junior Software/Web Developer role.
+    </p>
+  </div>
   <h2>
     Skills
   </h2>
